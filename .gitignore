@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Large model files (download separately with download_models.py)
+models/
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary / scratch files
+*.part
+score_dev.json
+score_details.jsonl
+build_6slides.py
+
+# Sensitive data - keep submission predictions, they're submission outputs
+# submission/ -- kept intentionally
+
+# Logs
+*.log
+
+
+~$*
